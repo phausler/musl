@@ -1,0 +1,89 @@
+module musl [system] {
+    module POSIX {
+        module arpa {
+            module inet {
+                header "arpa/inet.h"
+                export *
+            }
+            export *
+        }
+
+        module fcntl {
+            header "fcntl.h"
+            header "sys/fcntl.h"
+            export *
+        }
+
+        module ioctl {
+            header "sys/ioctl.h"
+            export *
+        }
+
+        module net {
+            module if_var {
+                header "net/if_var.h"
+                export *
+            }
+        }
+
+        module netinet {
+            module in {
+                header "netinet/in.h"
+                export *
+            }
+
+            module tcp {
+                header "netinet/tcp.h"
+                export *
+            }
+        }
+
+        module poll {
+            header "poll.h"
+            header "sys/poll.h"
+            export *
+        }
+    }
+
+    module sys {
+        export *
+
+        module ipc {
+            header "sys/ipc.h"
+            export *
+        }
+
+        module mman {
+            header "sys/mman.h"
+            export *
+        }
+
+        module msg {
+            header "sys/msg.h"
+            export *
+        }
+
+        module file {
+            header "sys/file.h"
+            export *
+        }
+
+        module mount {
+            header "sys/mount.h"
+            export *
+        }
+
+        module param {
+            header "sys/param.h"
+            export *
+        }
+    }
+
+    module C {
+        module errno {
+            header "errno.h"
+            header "sys/errno.h"
+            export *
+        }
+    }
+}
