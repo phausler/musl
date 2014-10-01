@@ -1,0 +1,10 @@
+build %{build_dir}/%{__dir__}/hsearch.o : CompileC %{__path__}/hsearch.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/insque.o : CompileC %{__path__}/insque.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/lsearch.o : CompileC %{__path__}/lsearch.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tdestroy.o : CompileC %{__path__}/tdestroy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tsearch_avl.o : CompileC %{__path__}/tsearch_avl.c
+    cflags = $project_cflags -x c

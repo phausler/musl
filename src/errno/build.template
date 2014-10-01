@@ -1,0 +1,4 @@
+build %{build_dir}/%{__dir__}/__errno_location.o : CompileC %{__path__}/__errno_location.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strerror.o : CompileC %{__path__}/strerror.c
+    cflags = $project_cflags -x c

@@ -1,0 +1,228 @@
+build %{build_dir}/%{__dir__}/__fclose_ca.o : CompileC %{__path__}/__fclose_ca.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__fdopen.o : CompileC %{__path__}/__fdopen.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__fmodeflags.o : CompileC %{__path__}/__fmodeflags.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__fopen_rb_ca.o : CompileC %{__path__}/__fopen_rb_ca.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__lockfile.o : CompileC %{__path__}/__lockfile.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__overflow.o : CompileC %{__path__}/__overflow.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__stdio_close.o : CompileC %{__path__}/__stdio_close.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__stdio_exit.o : CompileC %{__path__}/__stdio_exit.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__stdio_read.o : CompileC %{__path__}/__stdio_read.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__stdio_seek.o : CompileC %{__path__}/__stdio_seek.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__stdio_write.o : CompileC %{__path__}/__stdio_write.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__stdout_write.o : CompileC %{__path__}/__stdout_write.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__string_read.o : CompileC %{__path__}/__string_read.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__toread.o : CompileC %{__path__}/__toread.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__towrite.o : CompileC %{__path__}/__towrite.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__uflow.o : CompileC %{__path__}/__uflow.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/asprintf.o : CompileC %{__path__}/asprintf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/clearerr.o : CompileC %{__path__}/clearerr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/dprintf.o : CompileC %{__path__}/dprintf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ext.o : CompileC %{__path__}/ext.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ext2.o : CompileC %{__path__}/ext2.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fclose.o : CompileC %{__path__}/fclose.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/feof.o : CompileC %{__path__}/feof.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ferror.o : CompileC %{__path__}/ferror.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fflush.o : CompileC %{__path__}/fflush.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fgetc.o : CompileC %{__path__}/fgetc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fgetln.o : CompileC %{__path__}/fgetln.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fgetpos.o : CompileC %{__path__}/fgetpos.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fgets.o : CompileC %{__path__}/fgets.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fgetwc.o : CompileC %{__path__}/fgetwc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fgetws.o : CompileC %{__path__}/fgetws.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fileno.o : CompileC %{__path__}/fileno.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/flockfile.o : CompileC %{__path__}/flockfile.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fmemopen.o : CompileC %{__path__}/fmemopen.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fopen.o : CompileC %{__path__}/fopen.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fprintf.o : CompileC %{__path__}/fprintf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fputc.o : CompileC %{__path__}/fputc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fputs.o : CompileC %{__path__}/fputs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fputwc.o : CompileC %{__path__}/fputwc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fputws.o : CompileC %{__path__}/fputws.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fread.o : CompileC %{__path__}/fread.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/freopen.o : CompileC %{__path__}/freopen.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fscanf.o : CompileC %{__path__}/fscanf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fseek.o : CompileC %{__path__}/fseek.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fsetpos.o : CompileC %{__path__}/fsetpos.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ftell.o : CompileC %{__path__}/ftell.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ftrylockfile.o : CompileC %{__path__}/ftrylockfile.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/funlockfile.o : CompileC %{__path__}/funlockfile.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fwide.o : CompileC %{__path__}/fwide.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fwprintf.o : CompileC %{__path__}/fwprintf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fwrite.o : CompileC %{__path__}/fwrite.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fwscanf.o : CompileC %{__path__}/fwscanf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getc.o : CompileC %{__path__}/getc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getc_unlocked.o : CompileC %{__path__}/getc_unlocked.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getchar.o : CompileC %{__path__}/getchar.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getchar_unlocked.o : CompileC %{__path__}/getchar_unlocked.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getdelim.o : CompileC %{__path__}/getdelim.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getline.o : CompileC %{__path__}/getline.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/gets.o : CompileC %{__path__}/gets.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getw.o : CompileC %{__path__}/getw.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getwc.o : CompileC %{__path__}/getwc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getwchar.o : CompileC %{__path__}/getwchar.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/open_memstream.o : CompileC %{__path__}/open_memstream.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/open_wmemstream.o : CompileC %{__path__}/open_wmemstream.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pclose.o : CompileC %{__path__}/pclose.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/perror.o : CompileC %{__path__}/perror.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/popen.o : CompileC %{__path__}/popen.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/printf.o : CompileC %{__path__}/printf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/putc.o : CompileC %{__path__}/putc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/putc_unlocked.o : CompileC %{__path__}/putc_unlocked.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/putchar.o : CompileC %{__path__}/putchar.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/putchar_unlocked.o : CompileC %{__path__}/putchar_unlocked.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/puts.o : CompileC %{__path__}/puts.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/putw.o : CompileC %{__path__}/putw.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/putwc.o : CompileC %{__path__}/putwc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/putwchar.o : CompileC %{__path__}/putwchar.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/remove.o : CompileC %{__path__}/remove.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/rename.o : CompileC %{__path__}/rename.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/rewind.o : CompileC %{__path__}/rewind.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/scanf.o : CompileC %{__path__}/scanf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setbuf.o : CompileC %{__path__}/setbuf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setbuffer.o : CompileC %{__path__}/setbuffer.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setlinebuf.o : CompileC %{__path__}/setlinebuf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setvbuf.o : CompileC %{__path__}/setvbuf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/snprintf.o : CompileC %{__path__}/snprintf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sprintf.o : CompileC %{__path__}/sprintf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sscanf.o : CompileC %{__path__}/sscanf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/stderr.o : CompileC %{__path__}/stderr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/stdin.o : CompileC %{__path__}/stdin.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/stdout.o : CompileC %{__path__}/stdout.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/swprintf.o : CompileC %{__path__}/swprintf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/swscanf.o : CompileC %{__path__}/swscanf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tempnam.o : CompileC %{__path__}/tempnam.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tmpfile.o : CompileC %{__path__}/tmpfile.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tmpnam.o : CompileC %{__path__}/tmpnam.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ungetc.o : CompileC %{__path__}/ungetc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ungetwc.o : CompileC %{__path__}/ungetwc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vasprintf.o : CompileC %{__path__}/vasprintf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vdprintf.o : CompileC %{__path__}/vdprintf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vfprintf.o : CompileC %{__path__}/vfprintf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vfscanf.o : CompileC %{__path__}/vfscanf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vfwprintf.o : CompileC %{__path__}/vfwprintf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vfwscanf.o : CompileC %{__path__}/vfwscanf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vprintf.o : CompileC %{__path__}/vprintf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vscanf.o : CompileC %{__path__}/vscanf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vsnprintf.o : CompileC %{__path__}/vsnprintf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vsprintf.o : CompileC %{__path__}/vsprintf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vsscanf.o : CompileC %{__path__}/vsscanf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vswprintf.o : CompileC %{__path__}/vswprintf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vswscanf.o : CompileC %{__path__}/vswscanf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vwprintf.o : CompileC %{__path__}/vwprintf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vwscanf.o : CompileC %{__path__}/vwscanf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wprintf.o : CompileC %{__path__}/wprintf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wscanf.o : CompileC %{__path__}/wscanf.c
+    cflags = $project_cflags -x c

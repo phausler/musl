@@ -1,0 +1,8 @@
+build %{build_dir}/%{__dir__}/confstr.o : CompileC %{__path__}/confstr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fpathconf.o : CompileC %{__path__}/fpathconf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pathconf.o : CompileC %{__path__}/pathconf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sysconf.o : CompileC %{__path__}/sysconf.c
+    cflags = $project_cflags -x c

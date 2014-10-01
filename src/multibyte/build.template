@@ -1,0 +1,32 @@
+build %{build_dir}/%{__dir__}/btowc.o : CompileC %{__path__}/btowc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/internal.o : CompileC %{__path__}/internal.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mblen.o : CompileC %{__path__}/mblen.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mbrlen.o : CompileC %{__path__}/mbrlen.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mbrtowc.o : CompileC %{__path__}/mbrtowc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mbsinit.o : CompileC %{__path__}/mbsinit.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mbsnrtowcs.o : CompileC %{__path__}/mbsnrtowcs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mbsrtowcs.o : CompileC %{__path__}/mbsrtowcs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mbstowcs.o : CompileC %{__path__}/mbstowcs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mbtowc.o : CompileC %{__path__}/mbtowc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcrtomb.o : CompileC %{__path__}/wcrtomb.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcsnrtombs.o : CompileC %{__path__}/wcsnrtombs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcsrtombs.o : CompileC %{__path__}/wcsrtombs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcstombs.o : CompileC %{__path__}/wcstombs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wctob.o : CompileC %{__path__}/wctob.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wctomb.o : CompileC %{__path__}/wctomb.c
+    cflags = $project_cflags -x c

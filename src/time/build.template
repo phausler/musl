@@ -1,0 +1,80 @@
+build %{build_dir}/%{__dir__}/__asctime.o : CompileC %{__path__}/__asctime.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__map_file.o : CompileC %{__path__}/__map_file.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__month_to_secs.o : CompileC %{__path__}/__month_to_secs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__secs_to_tm.o : CompileC %{__path__}/__secs_to_tm.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__tm_to_secs.o : CompileC %{__path__}/__tm_to_secs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__tz.o : CompileC %{__path__}/__tz.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__year_to_secs.o : CompileC %{__path__}/__year_to_secs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/asctime.o : CompileC %{__path__}/asctime.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/asctime_r.o : CompileC %{__path__}/asctime_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/clock.o : CompileC %{__path__}/clock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/clock_getcpuclockid.o : CompileC %{__path__}/clock_getcpuclockid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/clock_getres.o : CompileC %{__path__}/clock_getres.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/clock_gettime.o : CompileC %{__path__}/clock_gettime.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/clock_nanosleep.o : CompileC %{__path__}/clock_nanosleep.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/clock_settime.o : CompileC %{__path__}/clock_settime.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ctime.o : CompileC %{__path__}/ctime.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ctime_r.o : CompileC %{__path__}/ctime_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/difftime.o : CompileC %{__path__}/difftime.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ftime.o : CompileC %{__path__}/ftime.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getdate.o : CompileC %{__path__}/getdate.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/gettimeofday.o : CompileC %{__path__}/gettimeofday.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/gmtime.o : CompileC %{__path__}/gmtime.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/gmtime_r.o : CompileC %{__path__}/gmtime_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/localtime.o : CompileC %{__path__}/localtime.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/localtime_r.o : CompileC %{__path__}/localtime_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mktime.o : CompileC %{__path__}/mktime.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/nanosleep.o : CompileC %{__path__}/nanosleep.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strftime.o : CompileC %{__path__}/strftime.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strptime.o : CompileC %{__path__}/strptime.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/time.o : CompileC %{__path__}/time.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/timegm.o : CompileC %{__path__}/timegm.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/timer_create.o : CompileC %{__path__}/timer_create.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/timer_delete.o : CompileC %{__path__}/timer_delete.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/timer_getoverrun.o : CompileC %{__path__}/timer_getoverrun.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/timer_gettime.o : CompileC %{__path__}/timer_gettime.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/timer_settime.o : CompileC %{__path__}/timer_settime.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/times.o : CompileC %{__path__}/times.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/timespec_get.o : CompileC %{__path__}/timespec_get.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/utime.o : CompileC %{__path__}/utime.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcsftime.o : CompileC %{__path__}/wcsftime.c
+    cflags = $project_cflags -x c

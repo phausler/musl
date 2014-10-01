@@ -1,0 +1,150 @@
+build %{build_dir}/%{__dir__}/accept.o : CompileC %{__path__}/accept.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/accept4.o : CompileC %{__path__}/accept4.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/bind.o : CompileC %{__path__}/bind.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/connect.o : CompileC %{__path__}/connect.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/dn_comp.o : CompileC %{__path__}/dn_comp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/dn_expand.o : CompileC %{__path__}/dn_expand.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/dn_skipname.o : CompileC %{__path__}/dn_skipname.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/dns_parse.o : CompileC %{__path__}/dns_parse.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ent.o : CompileC %{__path__}/ent.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ether.o : CompileC %{__path__}/ether.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/freeaddrinfo.o : CompileC %{__path__}/freeaddrinfo.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/gai_strerror.o : CompileC %{__path__}/gai_strerror.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getaddrinfo.o : CompileC %{__path__}/getaddrinfo.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/gethostbyaddr.o : CompileC %{__path__}/gethostbyaddr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/gethostbyaddr_r.o : CompileC %{__path__}/gethostbyaddr_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/gethostbyname.o : CompileC %{__path__}/gethostbyname.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/gethostbyname2.o : CompileC %{__path__}/gethostbyname2.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/gethostbyname2_r.o : CompileC %{__path__}/gethostbyname2_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/gethostbyname_r.o : CompileC %{__path__}/gethostbyname_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getifaddrs.o : CompileC %{__path__}/getifaddrs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getnameinfo.o : CompileC %{__path__}/getnameinfo.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getpeername.o : CompileC %{__path__}/getpeername.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getservbyname.o : CompileC %{__path__}/getservbyname.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getservbyname_r.o : CompileC %{__path__}/getservbyname_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getservbyport.o : CompileC %{__path__}/getservbyport.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getservbyport_r.o : CompileC %{__path__}/getservbyport_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getsockname.o : CompileC %{__path__}/getsockname.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getsockopt.o : CompileC %{__path__}/getsockopt.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/h_errno.o : CompileC %{__path__}/h_errno.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/herror.o : CompileC %{__path__}/herror.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/hstrerror.o : CompileC %{__path__}/hstrerror.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/htonl.o : CompileC %{__path__}/htonl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/htons.o : CompileC %{__path__}/htons.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/if_freenameindex.o : CompileC %{__path__}/if_freenameindex.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/if_indextoname.o : CompileC %{__path__}/if_indextoname.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/if_nameindex.o : CompileC %{__path__}/if_nameindex.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/if_nametoindex.o : CompileC %{__path__}/if_nametoindex.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/in6addr_any.o : CompileC %{__path__}/in6addr_any.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/in6addr_loopback.o : CompileC %{__path__}/in6addr_loopback.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/inet_addr.o : CompileC %{__path__}/inet_addr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/inet_aton.o : CompileC %{__path__}/inet_aton.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/inet_legacy.o : CompileC %{__path__}/inet_legacy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/inet_ntoa.o : CompileC %{__path__}/inet_ntoa.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/inet_ntop.o : CompileC %{__path__}/inet_ntop.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/inet_pton.o : CompileC %{__path__}/inet_pton.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/listen.o : CompileC %{__path__}/listen.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/lookup_ipliteral.o : CompileC %{__path__}/lookup_ipliteral.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/lookup_name.o : CompileC %{__path__}/lookup_name.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/lookup_serv.o : CompileC %{__path__}/lookup_serv.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/netlink.o : CompileC %{__path__}/netlink.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/netname.o : CompileC %{__path__}/netname.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ntohl.o : CompileC %{__path__}/ntohl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ntohs.o : CompileC %{__path__}/ntohs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/proto.o : CompileC %{__path__}/proto.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/recv.o : CompileC %{__path__}/recv.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/recvfrom.o : CompileC %{__path__}/recvfrom.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/recvmmsg.o : CompileC %{__path__}/recvmmsg.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/recvmsg.o : CompileC %{__path__}/recvmsg.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/res_init.o : CompileC %{__path__}/res_init.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/res_mkquery.o : CompileC %{__path__}/res_mkquery.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/res_msend.o : CompileC %{__path__}/res_msend.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/res_query.o : CompileC %{__path__}/res_query.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/res_querydomain.o : CompileC %{__path__}/res_querydomain.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/res_send.o : CompileC %{__path__}/res_send.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/res_state.o : CompileC %{__path__}/res_state.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/send.o : CompileC %{__path__}/send.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sendmmsg.o : CompileC %{__path__}/sendmmsg.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sendmsg.o : CompileC %{__path__}/sendmsg.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sendto.o : CompileC %{__path__}/sendto.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/serv.o : CompileC %{__path__}/serv.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setsockopt.o : CompileC %{__path__}/setsockopt.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/shutdown.o : CompileC %{__path__}/shutdown.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sockatmark.o : CompileC %{__path__}/sockatmark.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/socket.o : CompileC %{__path__}/socket.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/socketpair.o : CompileC %{__path__}/socketpair.c
+    cflags = $project_cflags -x c

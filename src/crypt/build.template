@@ -1,0 +1,16 @@
+build %{build_dir}/%{__dir__}/crypt.o : CompileC %{__path__}/crypt.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/crypt_blowfish.o : CompileC %{__path__}/crypt_blowfish.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/crypt_des.o : CompileC %{__path__}/crypt_des.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/crypt_md5.o : CompileC %{__path__}/crypt_md5.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/crypt_r.o : CompileC %{__path__}/crypt_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/crypt_sha256.o : CompileC %{__path__}/crypt_sha256.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/crypt_sha512.o : CompileC %{__path__}/crypt_sha512.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/encrypt.o : CompileC %{__path__}/encrypt.c
+    cflags = $project_cflags -x c

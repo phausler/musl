@@ -1,0 +1,20 @@
+build %{build_dir}/%{__dir__}/__environ.o : CompileC %{__path__}/__environ.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__init_tls.o : CompileC %{__path__}/__init_tls.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__libc_start_main.o : CompileC %{__path__}/__libc_start_main.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__reset_tls.o : CompileC %{__path__}/__reset_tls.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__stack_chk_fail.o : CompileC %{__path__}/__stack_chk_fail.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/clearenv.o : CompileC %{__path__}/clearenv.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getenv.o : CompileC %{__path__}/getenv.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/putenv.o : CompileC %{__path__}/putenv.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setenv.o : CompileC %{__path__}/setenv.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/unsetenv.o : CompileC %{__path__}/unsetenv.c
+    cflags = $project_cflags -x c

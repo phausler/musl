@@ -1,0 +1,136 @@
+build %{build_dir}/%{__dir__}/__cexp.o : CompileC %{__path__}/__cexp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__cexpf.o : CompileC %{__path__}/__cexpf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cabs.o : CompileC %{__path__}/cabs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cabsf.o : CompileC %{__path__}/cabsf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cabsl.o : CompileC %{__path__}/cabsl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cacos.o : CompileC %{__path__}/cacos.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cacosf.o : CompileC %{__path__}/cacosf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cacosh.o : CompileC %{__path__}/cacosh.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cacoshf.o : CompileC %{__path__}/cacoshf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cacoshl.o : CompileC %{__path__}/cacoshl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cacosl.o : CompileC %{__path__}/cacosl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/carg.o : CompileC %{__path__}/carg.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cargf.o : CompileC %{__path__}/cargf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cargl.o : CompileC %{__path__}/cargl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/casin.o : CompileC %{__path__}/casin.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/casinf.o : CompileC %{__path__}/casinf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/casinh.o : CompileC %{__path__}/casinh.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/casinhf.o : CompileC %{__path__}/casinhf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/casinhl.o : CompileC %{__path__}/casinhl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/casinl.o : CompileC %{__path__}/casinl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/catan.o : CompileC %{__path__}/catan.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/catanf.o : CompileC %{__path__}/catanf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/catanh.o : CompileC %{__path__}/catanh.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/catanhf.o : CompileC %{__path__}/catanhf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/catanhl.o : CompileC %{__path__}/catanhl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/catanl.o : CompileC %{__path__}/catanl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ccos.o : CompileC %{__path__}/ccos.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ccosf.o : CompileC %{__path__}/ccosf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ccosh.o : CompileC %{__path__}/ccosh.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ccoshf.o : CompileC %{__path__}/ccoshf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ccoshl.o : CompileC %{__path__}/ccoshl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ccosl.o : CompileC %{__path__}/ccosl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cexp.o : CompileC %{__path__}/cexp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cexpf.o : CompileC %{__path__}/cexpf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cexpl.o : CompileC %{__path__}/cexpl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cimag.o : CompileC %{__path__}/cimag.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cimagf.o : CompileC %{__path__}/cimagf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cimagl.o : CompileC %{__path__}/cimagl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/clog.o : CompileC %{__path__}/clog.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/clogf.o : CompileC %{__path__}/clogf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/clogl.o : CompileC %{__path__}/clogl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/conj.o : CompileC %{__path__}/conj.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/conjf.o : CompileC %{__path__}/conjf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/conjl.o : CompileC %{__path__}/conjl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cpow.o : CompileC %{__path__}/cpow.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cpowf.o : CompileC %{__path__}/cpowf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cpowl.o : CompileC %{__path__}/cpowl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cproj.o : CompileC %{__path__}/cproj.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cprojf.o : CompileC %{__path__}/cprojf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cprojl.o : CompileC %{__path__}/cprojl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/creal.o : CompileC %{__path__}/creal.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/crealf.o : CompileC %{__path__}/crealf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/creall.o : CompileC %{__path__}/creall.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/csin.o : CompileC %{__path__}/csin.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/csinf.o : CompileC %{__path__}/csinf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/csinh.o : CompileC %{__path__}/csinh.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/csinhf.o : CompileC %{__path__}/csinhf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/csinhl.o : CompileC %{__path__}/csinhl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/csinl.o : CompileC %{__path__}/csinl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/csqrt.o : CompileC %{__path__}/csqrt.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/csqrtf.o : CompileC %{__path__}/csqrtf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/csqrtl.o : CompileC %{__path__}/csqrtl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ctan.o : CompileC %{__path__}/ctan.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ctanf.o : CompileC %{__path__}/ctanf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ctanh.o : CompileC %{__path__}/ctanh.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ctanhf.o : CompileC %{__path__}/ctanhf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ctanhl.o : CompileC %{__path__}/ctanhl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ctanl.o : CompileC %{__path__}/ctanl.c
+    cflags = $project_cflags -x c

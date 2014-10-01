@@ -1,0 +1,32 @@
+build %{build_dir}/%{__dir__}/fgetgrent.o : CompileC %{__path__}/fgetgrent.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fgetpwent.o : CompileC %{__path__}/fgetpwent.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fgetspent.o : CompileC %{__path__}/fgetspent.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getgr_r.o : CompileC %{__path__}/getgr_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getgrent.o : CompileC %{__path__}/getgrent.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getgrent_a.o : CompileC %{__path__}/getgrent_a.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getpw_r.o : CompileC %{__path__}/getpw_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getpwent.o : CompileC %{__path__}/getpwent.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getpwent_a.o : CompileC %{__path__}/getpwent_a.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getspent.o : CompileC %{__path__}/getspent.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getspnam.o : CompileC %{__path__}/getspnam.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getspnam_r.o : CompileC %{__path__}/getspnam_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/lckpwdf.o : CompileC %{__path__}/lckpwdf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/putgrent.o : CompileC %{__path__}/putgrent.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/putpwent.o : CompileC %{__path__}/putpwent.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/putspent.o : CompileC %{__path__}/putspent.c
+    cflags = $project_cflags -x c

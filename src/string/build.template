@@ -1,0 +1,146 @@
+build %{build_dir}/%{__dir__}/bcmp.o : CompileC %{__path__}/bcmp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/bcopy.o : CompileC %{__path__}/bcopy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/bzero.o : CompileC %{__path__}/bzero.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/index.o : CompileC %{__path__}/index.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/memccpy.o : CompileC %{__path__}/memccpy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/memchr.o : CompileC %{__path__}/memchr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/memcmp.o : CompileC %{__path__}/memcmp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/memcpy.o : CompileC %{__path__}/memcpy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/memmem.o : CompileC %{__path__}/memmem.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/memmove.o : CompileC %{__path__}/memmove.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mempcpy.o : CompileC %{__path__}/mempcpy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/memrchr.o : CompileC %{__path__}/memrchr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/memset.o : CompileC %{__path__}/memset.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/rindex.o : CompileC %{__path__}/rindex.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/stpcpy.o : CompileC %{__path__}/stpcpy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/stpncpy.o : CompileC %{__path__}/stpncpy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strcasecmp.o : CompileC %{__path__}/strcasecmp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strcasestr.o : CompileC %{__path__}/strcasestr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strcat.o : CompileC %{__path__}/strcat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strchr.o : CompileC %{__path__}/strchr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strchrnul.o : CompileC %{__path__}/strchrnul.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strcmp.o : CompileC %{__path__}/strcmp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strcpy.o : CompileC %{__path__}/strcpy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strcspn.o : CompileC %{__path__}/strcspn.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strdup.o : CompileC %{__path__}/strdup.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strerror_r.o : CompileC %{__path__}/strerror_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strlcat.o : CompileC %{__path__}/strlcat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strlcpy.o : CompileC %{__path__}/strlcpy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strlen.o : CompileC %{__path__}/strlen.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strncasecmp.o : CompileC %{__path__}/strncasecmp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strncat.o : CompileC %{__path__}/strncat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strncmp.o : CompileC %{__path__}/strncmp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strncpy.o : CompileC %{__path__}/strncpy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strndup.o : CompileC %{__path__}/strndup.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strnlen.o : CompileC %{__path__}/strnlen.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strpbrk.o : CompileC %{__path__}/strpbrk.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strrchr.o : CompileC %{__path__}/strrchr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strsep.o : CompileC %{__path__}/strsep.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strsignal.o : CompileC %{__path__}/strsignal.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strspn.o : CompileC %{__path__}/strspn.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strstr.o : CompileC %{__path__}/strstr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strtok.o : CompileC %{__path__}/strtok.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strtok_r.o : CompileC %{__path__}/strtok_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strverscmp.o : CompileC %{__path__}/strverscmp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/swab.o : CompileC %{__path__}/swab.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcpcpy.o : CompileC %{__path__}/wcpcpy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcpncpy.o : CompileC %{__path__}/wcpncpy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcscasecmp.o : CompileC %{__path__}/wcscasecmp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcscasecmp_l.o : CompileC %{__path__}/wcscasecmp_l.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcscat.o : CompileC %{__path__}/wcscat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcschr.o : CompileC %{__path__}/wcschr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcscmp.o : CompileC %{__path__}/wcscmp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcscpy.o : CompileC %{__path__}/wcscpy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcscspn.o : CompileC %{__path__}/wcscspn.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcsdup.o : CompileC %{__path__}/wcsdup.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcslen.o : CompileC %{__path__}/wcslen.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcsncasecmp.o : CompileC %{__path__}/wcsncasecmp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcsncasecmp_l.o : CompileC %{__path__}/wcsncasecmp_l.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcsncat.o : CompileC %{__path__}/wcsncat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcsncmp.o : CompileC %{__path__}/wcsncmp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcsncpy.o : CompileC %{__path__}/wcsncpy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcsnlen.o : CompileC %{__path__}/wcsnlen.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcspbrk.o : CompileC %{__path__}/wcspbrk.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcsrchr.o : CompileC %{__path__}/wcsrchr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcsspn.o : CompileC %{__path__}/wcsspn.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcsstr.o : CompileC %{__path__}/wcsstr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcstok.o : CompileC %{__path__}/wcstok.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcswcs.o : CompileC %{__path__}/wcswcs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wmemchr.o : CompileC %{__path__}/wmemchr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wmemcmp.o : CompileC %{__path__}/wmemcmp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wmemcpy.o : CompileC %{__path__}/wmemcpy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wmemmove.o : CompileC %{__path__}/wmemmove.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wmemset.o : CompileC %{__path__}/wmemset.c
+    cflags = $project_cflags -x c

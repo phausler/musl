@@ -1,0 +1,16 @@
+build %{build_dir}/%{__dir__}/__brk.o : CompileC %{__path__}/__brk.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/aligned_alloc.o : CompileC %{__path__}/aligned_alloc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/calloc.o : CompileC %{__path__}/calloc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/lite_malloc.o : CompileC %{__path__}/lite_malloc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/malloc.o : CompileC %{__path__}/malloc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/malloc_usable_size.o : CompileC %{__path__}/malloc_usable_size.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/memalign.o : CompileC %{__path__}/memalign.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_memalign.o : CompileC %{__path__}/posix_memalign.c
+    cflags = $project_cflags -x c

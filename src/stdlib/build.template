@@ -1,0 +1,42 @@
+build %{build_dir}/%{__dir__}/abs.o : CompileC %{__path__}/abs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/atof.o : CompileC %{__path__}/atof.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/atoi.o : CompileC %{__path__}/atoi.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/atol.o : CompileC %{__path__}/atol.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/atoll.o : CompileC %{__path__}/atoll.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/bsearch.o : CompileC %{__path__}/bsearch.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/div.o : CompileC %{__path__}/div.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ecvt.o : CompileC %{__path__}/ecvt.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fcvt.o : CompileC %{__path__}/fcvt.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/gcvt.o : CompileC %{__path__}/gcvt.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/imaxabs.o : CompileC %{__path__}/imaxabs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/imaxdiv.o : CompileC %{__path__}/imaxdiv.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/labs.o : CompileC %{__path__}/labs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ldiv.o : CompileC %{__path__}/ldiv.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/llabs.o : CompileC %{__path__}/llabs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/lldiv.o : CompileC %{__path__}/lldiv.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/qsort.o : CompileC %{__path__}/qsort.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strtod.o : CompileC %{__path__}/strtod.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strtol.o : CompileC %{__path__}/strtol.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcstod.o : CompileC %{__path__}/wcstod.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcstol.o : CompileC %{__path__}/wcstol.c
+    cflags = $project_cflags -x c

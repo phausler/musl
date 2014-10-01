@@ -1,0 +1,254 @@
+build %{build_dir}/%{__dir__}/__futex.o : CompileC %{__path__}/__futex.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__lock.o : CompileC %{__path__}/__lock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__set_thread_area.o : CompileC %{__path__}/__set_thread_area.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__syscall_cp.o : CompileC %{__path__}/__syscall_cp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__timedwait.o : CompileC %{__path__}/__timedwait.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__tls_get_addr.o : CompileC %{__path__}/__tls_get_addr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__unmapself.o : CompileC %{__path__}/__unmapself.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__wait.o : CompileC %{__path__}/__wait.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/call_once.o : CompileC %{__path__}/call_once.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/clone.o : CompileC %{__path__}/clone.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cnd_broadcast.o : CompileC %{__path__}/cnd_broadcast.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cnd_destroy.o : CompileC %{__path__}/cnd_destroy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cnd_init.o : CompileC %{__path__}/cnd_init.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cnd_signal.o : CompileC %{__path__}/cnd_signal.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cnd_timedwait.o : CompileC %{__path__}/cnd_timedwait.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cnd_wait.o : CompileC %{__path__}/cnd_wait.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/lock_ptc.o : CompileC %{__path__}/lock_ptc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mtx_destroy.o : CompileC %{__path__}/mtx_destroy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mtx_init.o : CompileC %{__path__}/mtx_init.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mtx_lock.o : CompileC %{__path__}/mtx_lock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mtx_timedlock.o : CompileC %{__path__}/mtx_timedlock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mtx_trylock.o : CompileC %{__path__}/mtx_trylock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mtx_unlock.o : CompileC %{__path__}/mtx_unlock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_atfork.o : CompileC %{__path__}/pthread_atfork.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_attr_destroy.o : CompileC %{__path__}/pthread_attr_destroy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_attr_get.o : CompileC %{__path__}/pthread_attr_get.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_attr_init.o : CompileC %{__path__}/pthread_attr_init.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_attr_setdetachstate.o : CompileC %{__path__}/pthread_attr_setdetachstate.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_attr_setguardsize.o : CompileC %{__path__}/pthread_attr_setguardsize.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_attr_setinheritsched.o : CompileC %{__path__}/pthread_attr_setinheritsched.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_attr_setschedparam.o : CompileC %{__path__}/pthread_attr_setschedparam.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_attr_setschedpolicy.o : CompileC %{__path__}/pthread_attr_setschedpolicy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_attr_setscope.o : CompileC %{__path__}/pthread_attr_setscope.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_attr_setstack.o : CompileC %{__path__}/pthread_attr_setstack.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_attr_setstacksize.o : CompileC %{__path__}/pthread_attr_setstacksize.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_barrier_destroy.o : CompileC %{__path__}/pthread_barrier_destroy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_barrier_init.o : CompileC %{__path__}/pthread_barrier_init.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_barrier_wait.o : CompileC %{__path__}/pthread_barrier_wait.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_barrierattr_destroy.o : CompileC %{__path__}/pthread_barrierattr_destroy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_barrierattr_init.o : CompileC %{__path__}/pthread_barrierattr_init.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_barrierattr_setpshared.o : CompileC %{__path__}/pthread_barrierattr_setpshared.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_cancel.o : CompileC %{__path__}/pthread_cancel.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_cleanup_push.o : CompileC %{__path__}/pthread_cleanup_push.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_cond_broadcast.o : CompileC %{__path__}/pthread_cond_broadcast.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_cond_destroy.o : CompileC %{__path__}/pthread_cond_destroy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_cond_init.o : CompileC %{__path__}/pthread_cond_init.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_cond_signal.o : CompileC %{__path__}/pthread_cond_signal.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_cond_timedwait.o : CompileC %{__path__}/pthread_cond_timedwait.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_cond_wait.o : CompileC %{__path__}/pthread_cond_wait.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_condattr_destroy.o : CompileC %{__path__}/pthread_condattr_destroy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_condattr_init.o : CompileC %{__path__}/pthread_condattr_init.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_condattr_setclock.o : CompileC %{__path__}/pthread_condattr_setclock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_condattr_setpshared.o : CompileC %{__path__}/pthread_condattr_setpshared.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_create.o : CompileC %{__path__}/pthread_create.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_detach.o : CompileC %{__path__}/pthread_detach.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_equal.o : CompileC %{__path__}/pthread_equal.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_getattr_np.o : CompileC %{__path__}/pthread_getattr_np.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_getconcurrency.o : CompileC %{__path__}/pthread_getconcurrency.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_getcpuclockid.o : CompileC %{__path__}/pthread_getcpuclockid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_getschedparam.o : CompileC %{__path__}/pthread_getschedparam.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_getspecific.o : CompileC %{__path__}/pthread_getspecific.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_join.o : CompileC %{__path__}/pthread_join.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_key_create.o : CompileC %{__path__}/pthread_key_create.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_kill.o : CompileC %{__path__}/pthread_kill.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_mutex_consistent.o : CompileC %{__path__}/pthread_mutex_consistent.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_mutex_destroy.o : CompileC %{__path__}/pthread_mutex_destroy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_mutex_getprioceiling.o : CompileC %{__path__}/pthread_mutex_getprioceiling.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_mutex_init.o : CompileC %{__path__}/pthread_mutex_init.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_mutex_lock.o : CompileC %{__path__}/pthread_mutex_lock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_mutex_setprioceiling.o : CompileC %{__path__}/pthread_mutex_setprioceiling.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_mutex_timedlock.o : CompileC %{__path__}/pthread_mutex_timedlock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_mutex_trylock.o : CompileC %{__path__}/pthread_mutex_trylock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_mutex_unlock.o : CompileC %{__path__}/pthread_mutex_unlock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_mutexattr_destroy.o : CompileC %{__path__}/pthread_mutexattr_destroy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_mutexattr_init.o : CompileC %{__path__}/pthread_mutexattr_init.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_mutexattr_setprotocol.o : CompileC %{__path__}/pthread_mutexattr_setprotocol.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_mutexattr_setpshared.o : CompileC %{__path__}/pthread_mutexattr_setpshared.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_mutexattr_setrobust.o : CompileC %{__path__}/pthread_mutexattr_setrobust.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_mutexattr_settype.o : CompileC %{__path__}/pthread_mutexattr_settype.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_once.o : CompileC %{__path__}/pthread_once.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_rwlock_destroy.o : CompileC %{__path__}/pthread_rwlock_destroy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_rwlock_init.o : CompileC %{__path__}/pthread_rwlock_init.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_rwlock_rdlock.o : CompileC %{__path__}/pthread_rwlock_rdlock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_rwlock_timedrdlock.o : CompileC %{__path__}/pthread_rwlock_timedrdlock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_rwlock_timedwrlock.o : CompileC %{__path__}/pthread_rwlock_timedwrlock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_rwlock_tryrdlock.o : CompileC %{__path__}/pthread_rwlock_tryrdlock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_rwlock_trywrlock.o : CompileC %{__path__}/pthread_rwlock_trywrlock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_rwlock_unlock.o : CompileC %{__path__}/pthread_rwlock_unlock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_rwlock_wrlock.o : CompileC %{__path__}/pthread_rwlock_wrlock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_rwlockattr_destroy.o : CompileC %{__path__}/pthread_rwlockattr_destroy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_rwlockattr_init.o : CompileC %{__path__}/pthread_rwlockattr_init.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_rwlockattr_setpshared.o : CompileC %{__path__}/pthread_rwlockattr_setpshared.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_self.o : CompileC %{__path__}/pthread_self.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_setcancelstate.o : CompileC %{__path__}/pthread_setcancelstate.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_setcanceltype.o : CompileC %{__path__}/pthread_setcanceltype.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_setconcurrency.o : CompileC %{__path__}/pthread_setconcurrency.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_setschedparam.o : CompileC %{__path__}/pthread_setschedparam.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_setschedprio.o : CompileC %{__path__}/pthread_setschedprio.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_setspecific.o : CompileC %{__path__}/pthread_setspecific.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_sigmask.o : CompileC %{__path__}/pthread_sigmask.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_spin_destroy.o : CompileC %{__path__}/pthread_spin_destroy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_spin_init.o : CompileC %{__path__}/pthread_spin_init.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_spin_lock.o : CompileC %{__path__}/pthread_spin_lock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_spin_trylock.o : CompileC %{__path__}/pthread_spin_trylock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_spin_unlock.o : CompileC %{__path__}/pthread_spin_unlock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pthread_testcancel.o : CompileC %{__path__}/pthread_testcancel.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sem_destroy.o : CompileC %{__path__}/sem_destroy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sem_getvalue.o : CompileC %{__path__}/sem_getvalue.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sem_init.o : CompileC %{__path__}/sem_init.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sem_open.o : CompileC %{__path__}/sem_open.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sem_post.o : CompileC %{__path__}/sem_post.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sem_timedwait.o : CompileC %{__path__}/sem_timedwait.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sem_trywait.o : CompileC %{__path__}/sem_trywait.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sem_unlink.o : CompileC %{__path__}/sem_unlink.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sem_wait.o : CompileC %{__path__}/sem_wait.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/synccall.o : CompileC %{__path__}/synccall.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/syscall_cp.o : CompileC %{__path__}/syscall_cp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/thrd_create.o : CompileC %{__path__}/thrd_create.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/thrd_exit.o : CompileC %{__path__}/thrd_exit.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/thrd_join.o : CompileC %{__path__}/thrd_join.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/thrd_sleep.o : CompileC %{__path__}/thrd_sleep.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/thrd_yield.o : CompileC %{__path__}/thrd_yield.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tls.o : CompileC %{__path__}/tls.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tss_create.o : CompileC %{__path__}/tss_create.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tss_delete.o : CompileC %{__path__}/tss_delete.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tss_set.o : CompileC %{__path__}/tss_set.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vmlock.o : CompileC %{__path__}/vmlock.c
+    cflags = $project_cflags -x c

@@ -1,0 +1,40 @@
+build %{build_dir}/%{__dir__}/__xstat.o : CompileC %{__path__}/__xstat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/chmod.o : CompileC %{__path__}/chmod.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fchmod.o : CompileC %{__path__}/fchmod.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fchmodat.o : CompileC %{__path__}/fchmodat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fstat.o : CompileC %{__path__}/fstat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fstatat.o : CompileC %{__path__}/fstatat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/futimens.o : CompileC %{__path__}/futimens.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/futimesat.o : CompileC %{__path__}/futimesat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/lchmod.o : CompileC %{__path__}/lchmod.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/lstat.o : CompileC %{__path__}/lstat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mkdir.o : CompileC %{__path__}/mkdir.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mkdirat.o : CompileC %{__path__}/mkdirat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mkfifo.o : CompileC %{__path__}/mkfifo.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mkfifoat.o : CompileC %{__path__}/mkfifoat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mknod.o : CompileC %{__path__}/mknod.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mknodat.o : CompileC %{__path__}/mknodat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/stat.o : CompileC %{__path__}/stat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/statvfs.o : CompileC %{__path__}/statvfs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/umask.o : CompileC %{__path__}/umask.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/utimensat.o : CompileC %{__path__}/utimensat.c
+    cflags = $project_cflags -x c

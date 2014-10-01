@@ -1,0 +1,26 @@
+build %{build_dir}/%{__dir__}/ftok.o : CompileC %{__path__}/ftok.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/msgctl.o : CompileC %{__path__}/msgctl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/msgget.o : CompileC %{__path__}/msgget.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/msgrcv.o : CompileC %{__path__}/msgrcv.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/msgsnd.o : CompileC %{__path__}/msgsnd.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/semctl.o : CompileC %{__path__}/semctl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/semget.o : CompileC %{__path__}/semget.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/semop.o : CompileC %{__path__}/semop.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/semtimedop.o : CompileC %{__path__}/semtimedop.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/shmat.o : CompileC %{__path__}/shmat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/shmctl.o : CompileC %{__path__}/shmctl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/shmdt.o : CompileC %{__path__}/shmdt.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/shmget.o : CompileC %{__path__}/shmget.c
+    cflags = $project_cflags -x c

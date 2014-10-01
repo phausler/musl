@@ -1,0 +1,20 @@
+build %{build_dir}/%{__dir__}/cfgetospeed.o : CompileC %{__path__}/cfgetospeed.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cfmakeraw.o : CompileC %{__path__}/cfmakeraw.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cfsetospeed.o : CompileC %{__path__}/cfsetospeed.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tcdrain.o : CompileC %{__path__}/tcdrain.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tcflow.o : CompileC %{__path__}/tcflow.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tcflush.o : CompileC %{__path__}/tcflush.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tcgetattr.o : CompileC %{__path__}/tcgetattr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tcgetsid.o : CompileC %{__path__}/tcgetsid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tcsendbreak.o : CompileC %{__path__}/tcsendbreak.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tcsetattr.o : CompileC %{__path__}/tcsetattr.c
+    cflags = $project_cflags -x c

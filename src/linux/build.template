@@ -1,0 +1,110 @@
+build %{build_dir}/%{__dir__}/adjtime.o : CompileC %{__path__}/adjtime.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/adjtimex.o : CompileC %{__path__}/adjtimex.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/arch_prctl.o : CompileC %{__path__}/arch_prctl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/brk.o : CompileC %{__path__}/brk.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cache.o : CompileC %{__path__}/cache.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/cap.o : CompileC %{__path__}/cap.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/chroot.o : CompileC %{__path__}/chroot.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/clock_adjtime.o : CompileC %{__path__}/clock_adjtime.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/clone.o : CompileC %{__path__}/clone.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/epoll.o : CompileC %{__path__}/epoll.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/eventfd.o : CompileC %{__path__}/eventfd.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fallocate.o : CompileC %{__path__}/fallocate.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fanotify.o : CompileC %{__path__}/fanotify.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/flock.o : CompileC %{__path__}/flock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/inotify.o : CompileC %{__path__}/inotify.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ioperm.o : CompileC %{__path__}/ioperm.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/iopl.o : CompileC %{__path__}/iopl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/klogctl.o : CompileC %{__path__}/klogctl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/module.o : CompileC %{__path__}/module.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mount.o : CompileC %{__path__}/mount.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/personality.o : CompileC %{__path__}/personality.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pivot_root.o : CompileC %{__path__}/pivot_root.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ppoll.o : CompileC %{__path__}/ppoll.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/prctl.o : CompileC %{__path__}/prctl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/prlimit.o : CompileC %{__path__}/prlimit.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/process_vm.o : CompileC %{__path__}/process_vm.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ptrace.o : CompileC %{__path__}/ptrace.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/quotactl.o : CompileC %{__path__}/quotactl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/readahead.o : CompileC %{__path__}/readahead.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/reboot.o : CompileC %{__path__}/reboot.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/remap_file_pages.o : CompileC %{__path__}/remap_file_pages.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sbrk.o : CompileC %{__path__}/sbrk.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sendfile.o : CompileC %{__path__}/sendfile.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setfsgid.o : CompileC %{__path__}/setfsgid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setfsuid.o : CompileC %{__path__}/setfsuid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setgroups.o : CompileC %{__path__}/setgroups.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sethostname.o : CompileC %{__path__}/sethostname.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setns.o : CompileC %{__path__}/setns.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/settimeofday.o : CompileC %{__path__}/settimeofday.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/signalfd.o : CompileC %{__path__}/signalfd.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/splice.o : CompileC %{__path__}/splice.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/stime.o : CompileC %{__path__}/stime.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/swap.o : CompileC %{__path__}/swap.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sync_file_range.o : CompileC %{__path__}/sync_file_range.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/syncfs.o : CompileC %{__path__}/syncfs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sysinfo.o : CompileC %{__path__}/sysinfo.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tee.o : CompileC %{__path__}/tee.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/timerfd.o : CompileC %{__path__}/timerfd.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/unshare.o : CompileC %{__path__}/unshare.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/utimes.o : CompileC %{__path__}/utimes.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vhangup.o : CompileC %{__path__}/vhangup.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vmsplice.o : CompileC %{__path__}/vmsplice.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wait3.o : CompileC %{__path__}/wait3.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wait4.o : CompileC %{__path__}/wait4.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/xattr.o : CompileC %{__path__}/xattr.c
+    cflags = $project_cflags -x c

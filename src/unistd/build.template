@@ -1,0 +1,158 @@
+build %{build_dir}/%{__dir__}/_exit.o : CompileC %{__path__}/_exit.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/access.o : CompileC %{__path__}/access.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/acct.o : CompileC %{__path__}/acct.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/alarm.o : CompileC %{__path__}/alarm.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/chdir.o : CompileC %{__path__}/chdir.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/chown.o : CompileC %{__path__}/chown.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/close.o : CompileC %{__path__}/close.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ctermid.o : CompileC %{__path__}/ctermid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/dup.o : CompileC %{__path__}/dup.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/dup2.o : CompileC %{__path__}/dup2.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/dup3.o : CompileC %{__path__}/dup3.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/faccessat.o : CompileC %{__path__}/faccessat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fchdir.o : CompileC %{__path__}/fchdir.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fchown.o : CompileC %{__path__}/fchown.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fchownat.o : CompileC %{__path__}/fchownat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fdatasync.o : CompileC %{__path__}/fdatasync.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fsync.o : CompileC %{__path__}/fsync.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ftruncate.o : CompileC %{__path__}/ftruncate.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getcwd.o : CompileC %{__path__}/getcwd.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getegid.o : CompileC %{__path__}/getegid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/geteuid.o : CompileC %{__path__}/geteuid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getgid.o : CompileC %{__path__}/getgid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getgroups.o : CompileC %{__path__}/getgroups.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/gethostname.o : CompileC %{__path__}/gethostname.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getlogin.o : CompileC %{__path__}/getlogin.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getlogin_r.o : CompileC %{__path__}/getlogin_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getpgid.o : CompileC %{__path__}/getpgid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getpgrp.o : CompileC %{__path__}/getpgrp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getpid.o : CompileC %{__path__}/getpid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getppid.o : CompileC %{__path__}/getppid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getsid.o : CompileC %{__path__}/getsid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getuid.o : CompileC %{__path__}/getuid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/isatty.o : CompileC %{__path__}/isatty.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/lchown.o : CompileC %{__path__}/lchown.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/link.o : CompileC %{__path__}/link.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/linkat.o : CompileC %{__path__}/linkat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/lseek.o : CompileC %{__path__}/lseek.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/nice.o : CompileC %{__path__}/nice.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pause.o : CompileC %{__path__}/pause.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pipe.o : CompileC %{__path__}/pipe.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pipe2.o : CompileC %{__path__}/pipe2.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_close.o : CompileC %{__path__}/posix_close.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pread.o : CompileC %{__path__}/pread.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/preadv.o : CompileC %{__path__}/preadv.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pwrite.o : CompileC %{__path__}/pwrite.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pwritev.o : CompileC %{__path__}/pwritev.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/read.o : CompileC %{__path__}/read.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/readlink.o : CompileC %{__path__}/readlink.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/readlinkat.o : CompileC %{__path__}/readlinkat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/readv.o : CompileC %{__path__}/readv.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/renameat.o : CompileC %{__path__}/renameat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/rmdir.o : CompileC %{__path__}/rmdir.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setegid.o : CompileC %{__path__}/setegid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/seteuid.o : CompileC %{__path__}/seteuid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setgid.o : CompileC %{__path__}/setgid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setpgid.o : CompileC %{__path__}/setpgid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setpgrp.o : CompileC %{__path__}/setpgrp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setregid.o : CompileC %{__path__}/setregid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setresgid.o : CompileC %{__path__}/setresgid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setresuid.o : CompileC %{__path__}/setresuid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setreuid.o : CompileC %{__path__}/setreuid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setsid.o : CompileC %{__path__}/setsid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setuid.o : CompileC %{__path__}/setuid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setxid.o : CompileC %{__path__}/setxid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sleep.o : CompileC %{__path__}/sleep.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/symlink.o : CompileC %{__path__}/symlink.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/symlinkat.o : CompileC %{__path__}/symlinkat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sync.o : CompileC %{__path__}/sync.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tcgetpgrp.o : CompileC %{__path__}/tcgetpgrp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tcsetpgrp.o : CompileC %{__path__}/tcsetpgrp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/truncate.o : CompileC %{__path__}/truncate.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ttyname.o : CompileC %{__path__}/ttyname.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ttyname_r.o : CompileC %{__path__}/ttyname_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ualarm.o : CompileC %{__path__}/ualarm.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/unlink.o : CompileC %{__path__}/unlink.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/unlinkat.o : CompileC %{__path__}/unlinkat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/usleep.o : CompileC %{__path__}/usleep.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/write.o : CompileC %{__path__}/write.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/writev.o : CompileC %{__path__}/writev.c
+    cflags = $project_cflags -x c

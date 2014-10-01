@@ -1,0 +1,14 @@
+build %{build_dir}/%{__dir__}/__randname.o : CompileC %{__path__}/__randname.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mkdtemp.o : CompileC %{__path__}/mkdtemp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mkostemp.o : CompileC %{__path__}/mkostemp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mkostemps.o : CompileC %{__path__}/mkostemps.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mkstemp.o : CompileC %{__path__}/mkstemp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mkstemps.o : CompileC %{__path__}/mkstemps.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mktemp.o : CompileC %{__path__}/mktemp.c
+    cflags = $project_cflags -x c

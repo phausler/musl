@@ -1,0 +1,6 @@
+build %{build_dir}/%{__dir__}/poll.o : CompileC %{__path__}/poll.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pselect.o : CompileC %{__path__}/pselect.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/select.o : CompileC %{__path__}/select.c
+    cflags = $project_cflags -x c

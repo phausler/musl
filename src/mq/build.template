@@ -1,0 +1,20 @@
+build %{build_dir}/%{__dir__}/mq_close.o : CompileC %{__path__}/mq_close.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mq_getattr.o : CompileC %{__path__}/mq_getattr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mq_notify.o : CompileC %{__path__}/mq_notify.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mq_open.o : CompileC %{__path__}/mq_open.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mq_receive.o : CompileC %{__path__}/mq_receive.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mq_send.o : CompileC %{__path__}/mq_send.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mq_setattr.o : CompileC %{__path__}/mq_setattr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mq_timedreceive.o : CompileC %{__path__}/mq_timedreceive.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mq_timedsend.o : CompileC %{__path__}/mq_timedsend.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mq_unlink.o : CompileC %{__path__}/mq_unlink.c
+    cflags = $project_cflags -x c

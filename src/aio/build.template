@@ -1,0 +1,14 @@
+build %{build_dir}/%{__dir__}/aio_cancel.o : CompileC %{__path__}/aio_cancel.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/aio_error.o : CompileC %{__path__}/aio_error.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/aio_fsync.o : CompileC %{__path__}/aio_fsync.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/aio_readwrite.o : CompileC %{__path__}/aio_readwrite.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/aio_return.o : CompileC %{__path__}/aio_return.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/aio_suspend.o : CompileC %{__path__}/aio_suspend.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/lio_listio.o : CompileC %{__path__}/lio_listio.c
+    cflags = $project_cflags -x c

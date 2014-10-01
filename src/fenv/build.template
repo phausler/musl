@@ -1,0 +1,12 @@
+build %{build_dir}/%{__dir__}/fegetexceptflag.o : CompileC %{__path__}/fegetexceptflag.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/feholdexcept.o : CompileC %{__path__}/feholdexcept.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fenv.o : CompileC %{__path__}/fenv.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fesetexceptflag.o : CompileC %{__path__}/fesetexceptflag.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fesetround.o : CompileC %{__path__}/fesetround.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/feupdateenv.o : CompileC %{__path__}/feupdateenv.c
+    cflags = $project_cflags -x c

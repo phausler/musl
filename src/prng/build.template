@@ -1,0 +1,22 @@
+build %{build_dir}/%{__dir__}/__rand48_step.o : CompileC %{__path__}/__rand48_step.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__seed48.o : CompileC %{__path__}/__seed48.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/drand48.o : CompileC %{__path__}/drand48.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/lcong48.o : CompileC %{__path__}/lcong48.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/lrand48.o : CompileC %{__path__}/lrand48.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mrand48.o : CompileC %{__path__}/mrand48.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/rand.o : CompileC %{__path__}/rand.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/rand_r.o : CompileC %{__path__}/rand_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/random.o : CompileC %{__path__}/random.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/seed48.o : CompileC %{__path__}/seed48.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/srand48.o : CompileC %{__path__}/srand48.c
+    cflags = $project_cflags -x c

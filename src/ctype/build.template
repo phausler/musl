@@ -1,0 +1,74 @@
+build %{build_dir}/%{__dir__}/__ctype_b_loc.o : CompileC %{__path__}/__ctype_b_loc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__ctype_get_mb_cur_max.o : CompileC %{__path__}/__ctype_get_mb_cur_max.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__ctype_tolower_loc.o : CompileC %{__path__}/__ctype_tolower_loc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__ctype_toupper_loc.o : CompileC %{__path__}/__ctype_toupper_loc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/isalnum.o : CompileC %{__path__}/isalnum.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/isalpha.o : CompileC %{__path__}/isalpha.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/isascii.o : CompileC %{__path__}/isascii.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/isblank.o : CompileC %{__path__}/isblank.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/iscntrl.o : CompileC %{__path__}/iscntrl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/isdigit.o : CompileC %{__path__}/isdigit.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/isgraph.o : CompileC %{__path__}/isgraph.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/islower.o : CompileC %{__path__}/islower.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/isprint.o : CompileC %{__path__}/isprint.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ispunct.o : CompileC %{__path__}/ispunct.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/isspace.o : CompileC %{__path__}/isspace.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/isupper.o : CompileC %{__path__}/isupper.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/iswalnum.o : CompileC %{__path__}/iswalnum.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/iswalpha.o : CompileC %{__path__}/iswalpha.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/iswblank.o : CompileC %{__path__}/iswblank.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/iswcntrl.o : CompileC %{__path__}/iswcntrl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/iswctype.o : CompileC %{__path__}/iswctype.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/iswdigit.o : CompileC %{__path__}/iswdigit.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/iswgraph.o : CompileC %{__path__}/iswgraph.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/iswlower.o : CompileC %{__path__}/iswlower.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/iswprint.o : CompileC %{__path__}/iswprint.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/iswpunct.o : CompileC %{__path__}/iswpunct.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/iswspace.o : CompileC %{__path__}/iswspace.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/iswupper.o : CompileC %{__path__}/iswupper.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/iswxdigit.o : CompileC %{__path__}/iswxdigit.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/isxdigit.o : CompileC %{__path__}/isxdigit.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/toascii.o : CompileC %{__path__}/toascii.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tolower.o : CompileC %{__path__}/tolower.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/toupper.o : CompileC %{__path__}/toupper.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/towctrans.o : CompileC %{__path__}/towctrans.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcswidth.o : CompileC %{__path__}/wcswidth.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wctrans.o : CompileC %{__path__}/wctrans.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcwidth.o : CompileC %{__path__}/wcwidth.c
+    cflags = $project_cflags -x c

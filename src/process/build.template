@@ -1,0 +1,62 @@
+build %{build_dir}/%{__dir__}/execl.o : CompileC %{__path__}/execl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/execle.o : CompileC %{__path__}/execle.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/execlp.o : CompileC %{__path__}/execlp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/execv.o : CompileC %{__path__}/execv.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/execve.o : CompileC %{__path__}/execve.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/execvp.o : CompileC %{__path__}/execvp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fexecve.o : CompileC %{__path__}/fexecve.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fork.o : CompileC %{__path__}/fork.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_spawn.o : CompileC %{__path__}/posix_spawn.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_spawn_file_actions_addclose.o : CompileC %{__path__}/posix_spawn_file_actions_addclose.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_spawn_file_actions_adddup2.o : CompileC %{__path__}/posix_spawn_file_actions_adddup2.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_spawn_file_actions_addopen.o : CompileC %{__path__}/posix_spawn_file_actions_addopen.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_spawn_file_actions_destroy.o : CompileC %{__path__}/posix_spawn_file_actions_destroy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_spawn_file_actions_init.o : CompileC %{__path__}/posix_spawn_file_actions_init.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_spawnattr_destroy.o : CompileC %{__path__}/posix_spawnattr_destroy.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_spawnattr_getflags.o : CompileC %{__path__}/posix_spawnattr_getflags.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_spawnattr_getpgroup.o : CompileC %{__path__}/posix_spawnattr_getpgroup.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_spawnattr_getsigdefault.o : CompileC %{__path__}/posix_spawnattr_getsigdefault.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_spawnattr_getsigmask.o : CompileC %{__path__}/posix_spawnattr_getsigmask.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_spawnattr_init.o : CompileC %{__path__}/posix_spawnattr_init.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_spawnattr_sched.o : CompileC %{__path__}/posix_spawnattr_sched.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_spawnattr_setflags.o : CompileC %{__path__}/posix_spawnattr_setflags.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_spawnattr_setpgroup.o : CompileC %{__path__}/posix_spawnattr_setpgroup.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_spawnattr_setsigdefault.o : CompileC %{__path__}/posix_spawnattr_setsigdefault.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_spawnattr_setsigmask.o : CompileC %{__path__}/posix_spawnattr_setsigmask.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_spawnp.o : CompileC %{__path__}/posix_spawnp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/system.o : CompileC %{__path__}/system.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vfork.o : CompileC %{__path__}/vfork.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wait.o : CompileC %{__path__}/wait.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/waitid.o : CompileC %{__path__}/waitid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/waitpid.o : CompileC %{__path__}/waitpid.c
+    cflags = $project_cflags -x c

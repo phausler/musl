@@ -1,0 +1,14 @@
+build %{build_dir}/%{__dir__}/dl_iterate_phdr.o : CompileC %{__path__}/dl_iterate_phdr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/dladdr.o : CompileC %{__path__}/dladdr.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/dlinfo.o : CompileC %{__path__}/dlinfo.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/dlsym.o : CompileC %{__path__}/dlsym.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/dynlink.o : CompileC %{__path__}/dynlink.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/start.o : CompileC %{__path__}/start.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/tlsdesc.o : CompileC %{__path__}/tlsdesc.c
+    cflags = $project_cflags -x c

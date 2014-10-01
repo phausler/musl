@@ -1,0 +1,26 @@
+build %{build_dir}/%{__dir__}/__getdents.o : CompileC %{__path__}/__getdents.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/alphasort.o : CompileC %{__path__}/alphasort.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/closedir.o : CompileC %{__path__}/closedir.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/dirfd.o : CompileC %{__path__}/dirfd.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fdopendir.o : CompileC %{__path__}/fdopendir.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/opendir.o : CompileC %{__path__}/opendir.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/readdir.o : CompileC %{__path__}/readdir.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/readdir_r.o : CompileC %{__path__}/readdir_r.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/rewinddir.o : CompileC %{__path__}/rewinddir.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/scandir.o : CompileC %{__path__}/scandir.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/seekdir.o : CompileC %{__path__}/seekdir.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/telldir.o : CompileC %{__path__}/telldir.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/versionsort.o : CompileC %{__path__}/versionsort.c
+    cflags = $project_cflags -x c

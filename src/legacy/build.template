@@ -1,0 +1,32 @@
+build %{build_dir}/%{__dir__}/cuserid.o : CompileC %{__path__}/cuserid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/daemon.o : CompileC %{__path__}/daemon.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/err.o : CompileC %{__path__}/err.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/euidaccess.o : CompileC %{__path__}/euidaccess.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ftw.o : CompileC %{__path__}/ftw.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/futimes.o : CompileC %{__path__}/futimes.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getdtablesize.o : CompileC %{__path__}/getdtablesize.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getloadavg.o : CompileC %{__path__}/getloadavg.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getpagesize.o : CompileC %{__path__}/getpagesize.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getpass.o : CompileC %{__path__}/getpass.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getusershell.o : CompileC %{__path__}/getusershell.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/isastream.o : CompileC %{__path__}/isastream.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/lutimes.o : CompileC %{__path__}/lutimes.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ulimit.o : CompileC %{__path__}/ulimit.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/utmpx.o : CompileC %{__path__}/utmpx.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/valloc.o : CompileC %{__path__}/valloc.c
+    cflags = $project_cflags -x c

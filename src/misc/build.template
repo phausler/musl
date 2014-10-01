@@ -1,0 +1,76 @@
+build %{build_dir}/%{__dir__}/a64l.o : CompileC %{__path__}/a64l.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/basename.o : CompileC %{__path__}/basename.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/dirname.o : CompileC %{__path__}/dirname.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ffs.o : CompileC %{__path__}/ffs.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ffsl.o : CompileC %{__path__}/ffsl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ffsll.o : CompileC %{__path__}/ffsll.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/fmtmsg.o : CompileC %{__path__}/fmtmsg.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/forkpty.o : CompileC %{__path__}/forkpty.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/get_current_dir_name.o : CompileC %{__path__}/get_current_dir_name.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getauxval.o : CompileC %{__path__}/getauxval.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getdomainname.o : CompileC %{__path__}/getdomainname.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getgrouplist.o : CompileC %{__path__}/getgrouplist.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/gethostid.o : CompileC %{__path__}/gethostid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getopt.o : CompileC %{__path__}/getopt.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getopt_long.o : CompileC %{__path__}/getopt_long.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getpriority.o : CompileC %{__path__}/getpriority.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getresgid.o : CompileC %{__path__}/getresgid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getresuid.o : CompileC %{__path__}/getresuid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getrlimit.o : CompileC %{__path__}/getrlimit.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getrusage.o : CompileC %{__path__}/getrusage.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getsubopt.o : CompileC %{__path__}/getsubopt.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/initgroups.o : CompileC %{__path__}/initgroups.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ioctl.o : CompileC %{__path__}/ioctl.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/issetugid.o : CompileC %{__path__}/issetugid.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/lockf.o : CompileC %{__path__}/lockf.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mntent.o : CompileC %{__path__}/mntent.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/nftw.o : CompileC %{__path__}/nftw.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/openpty.o : CompileC %{__path__}/openpty.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/ptsname.o : CompileC %{__path__}/ptsname.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pty.o : CompileC %{__path__}/pty.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/realpath.o : CompileC %{__path__}/realpath.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setdomainname.o : CompileC %{__path__}/setdomainname.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setpriority.o : CompileC %{__path__}/setpriority.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setrlimit.o : CompileC %{__path__}/setrlimit.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/syscall.o : CompileC %{__path__}/syscall.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/syslog.o : CompileC %{__path__}/syslog.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/uname.o : CompileC %{__path__}/uname.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wordexp.o : CompileC %{__path__}/wordexp.c
+    cflags = $project_cflags -x c

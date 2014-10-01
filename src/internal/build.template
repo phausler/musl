@@ -1,0 +1,19 @@
+build %{build_dir}/%{__dir__}/floatscan.o : CompileC %{__path__}/floatscan.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/intscan.o : CompileC %{__path__}/intscan.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/libc.o : CompileC %{__path__}/libc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/procfdname.o : CompileC %{__path__}/procfdname.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/shgetc.o : CompileC %{__path__}/shgetc.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/syscall.o : CompileC %{__path__}/syscall.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/syscall_ret.o : CompileC %{__path__}/syscall_ret.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/vdso.o : CompileC %{__path__}/vdso.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/version.o : CompileC %{__path__}/version.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/%arch/syscall.o : Assemble %{__path__}/%arch/syscall.s

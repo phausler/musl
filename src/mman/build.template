@@ -1,0 +1,26 @@
+build %{build_dir}/%{__dir__}/madvise.o : CompileC %{__path__}/madvise.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mincore.o : CompileC %{__path__}/mincore.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mlock.o : CompileC %{__path__}/mlock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mlockall.o : CompileC %{__path__}/mlockall.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mmap.o : CompileC %{__path__}/mmap.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mprotect.o : CompileC %{__path__}/mprotect.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/mremap.o : CompileC %{__path__}/mremap.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/msync.o : CompileC %{__path__}/msync.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/munlock.o : CompileC %{__path__}/munlock.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/munlockall.o : CompileC %{__path__}/munlockall.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/munmap.o : CompileC %{__path__}/munmap.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/posix_madvise.o : CompileC %{__path__}/posix_madvise.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/shm_open.o : CompileC %{__path__}/shm_open.c
+    cflags = $project_cflags -x c

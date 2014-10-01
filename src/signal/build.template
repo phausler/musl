@@ -1,0 +1,77 @@
+
+build %{build_dir}/%{__dir__}/block.o : CompileC %{__path__}/block.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/getitimer.o : CompileC %{__path__}/getitimer.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/kill.o : CompileC %{__path__}/kill.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/killpg.o : CompileC %{__path__}/killpg.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/psiginfo.o : CompileC %{__path__}/psiginfo.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/psignal.o : CompileC %{__path__}/psignal.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/raise.o : CompileC %{__path__}/raise.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/restore.o : CompileC %{__path__}/restore.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setitimer.o : CompileC %{__path__}/setitimer.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigaction.o : CompileC %{__path__}/sigaction.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigaddset.o : CompileC %{__path__}/sigaddset.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigaltstack.o : CompileC %{__path__}/sigaltstack.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigandset.o : CompileC %{__path__}/sigandset.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigdelset.o : CompileC %{__path__}/sigdelset.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigemptyset.o : CompileC %{__path__}/sigemptyset.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigfillset.o : CompileC %{__path__}/sigfillset.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sighold.o : CompileC %{__path__}/sighold.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigignore.o : CompileC %{__path__}/sigignore.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/siginterrupt.o : CompileC %{__path__}/siginterrupt.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigisemptyset.o : CompileC %{__path__}/sigisemptyset.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigismember.o : CompileC %{__path__}/sigismember.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/siglongjmp.o : CompileC %{__path__}/siglongjmp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/signal.o : CompileC %{__path__}/signal.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigorset.o : CompileC %{__path__}/sigorset.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigpause.o : CompileC %{__path__}/sigpause.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigpending.o : CompileC %{__path__}/sigpending.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigprocmask.o : CompileC %{__path__}/sigprocmask.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigqueue.o : CompileC %{__path__}/sigqueue.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigrelse.o : CompileC %{__path__}/sigrelse.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigrtmax.o : CompileC %{__path__}/sigrtmax.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigrtmin.o : CompileC %{__path__}/sigrtmin.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigset.o : CompileC %{__path__}/sigset.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigsetjmp.o : CompileC %{__path__}/sigsetjmp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigsuspend.o : CompileC %{__path__}/sigsuspend.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigtimedwait.o : CompileC %{__path__}/sigtimedwait.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigwait.o : CompileC %{__path__}/sigwait.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sigwaitinfo.o : CompileC %{__path__}/sigwaitinfo.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/%arch/restore.o : Assemble %{__path__}/%arch/restore.s
+build %{build_dir}/%{__dir__}/%arch/sigsetjmp.o : Assemble %{__path__}/%arch/sigsetjmp.s

@@ -1,0 +1,46 @@
+build %{build_dir}/%{__dir__}/__lctrans.o : CompileC %{__path__}/__lctrans.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__mo_lookup.o : CompileC %{__path__}/__mo_lookup.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/__setlocalecat.o : CompileC %{__path__}/__setlocalecat.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/bind_textdomain_codeset.o : CompileC %{__path__}/bind_textdomain_codeset.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/catclose.o : CompileC %{__path__}/catclose.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/catgets.o : CompileC %{__path__}/catgets.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/catopen.o : CompileC %{__path__}/catopen.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/dcngettext.o : CompileC %{__path__}/dcngettext.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/duplocale.o : CompileC %{__path__}/duplocale.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/freelocale.o : CompileC %{__path__}/freelocale.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/iconv.o : CompileC %{__path__}/iconv.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/langinfo.o : CompileC %{__path__}/langinfo.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/localeconv.o : CompileC %{__path__}/localeconv.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/newlocale.o : CompileC %{__path__}/newlocale.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/pleval.o : CompileC %{__path__}/pleval.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setlocale.o : CompileC %{__path__}/setlocale.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strcoll.o : CompileC %{__path__}/strcoll.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strfmon.o : CompileC %{__path__}/strfmon.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/strxfrm.o : CompileC %{__path__}/strxfrm.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/textdomain.o : CompileC %{__path__}/textdomain.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/uselocale.o : CompileC %{__path__}/uselocale.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcscoll.o : CompileC %{__path__}/wcscoll.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/wcsxfrm.o : CompileC %{__path__}/wcsxfrm.c
+    cflags = $project_cflags -x c

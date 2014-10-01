@@ -1,0 +1,18 @@
+build %{build_dir}/%{__dir__}/affinity.o : CompileC %{__path__}/affinity.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sched_cpucount.o : CompileC %{__path__}/sched_cpucount.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sched_get_priority_max.o : CompileC %{__path__}/sched_get_priority_max.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sched_getparam.o : CompileC %{__path__}/sched_getparam.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sched_getscheduler.o : CompileC %{__path__}/sched_getscheduler.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sched_rr_get_interval.o : CompileC %{__path__}/sched_rr_get_interval.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sched_setparam.o : CompileC %{__path__}/sched_setparam.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sched_setscheduler.o : CompileC %{__path__}/sched_setscheduler.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/sched_yield.o : CompileC %{__path__}/sched_yield.c
+    cflags = $project_cflags -x c

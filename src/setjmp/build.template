@@ -1,0 +1,6 @@
+build %{build_dir}/%{__dir__}/longjmp.o : CompileC %{__path__}/longjmp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/setjmp.o : CompileC %{__path__}/setjmp.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/%arch/longjmp.o : Assemble %{__path__}/%arch/longjmp.s
+build %{build_dir}/%{__dir__}/%arch/setjmp.o : Assemble %{__path__}/%arch/setjmp.s

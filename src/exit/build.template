@@ -1,0 +1,14 @@
+build %{build_dir}/%{__dir__}/_Exit.o : CompileC %{__path__}/_Exit.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/abort.o : CompileC %{__path__}/abort.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/assert.o : CompileC %{__path__}/assert.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/at_quick_exit.o : CompileC %{__path__}/at_quick_exit.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/atexit.o : CompileC %{__path__}/atexit.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/exit.o : CompileC %{__path__}/exit.c
+    cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/quick_exit.o : CompileC %{__path__}/quick_exit.c
+    cflags = $project_cflags -x c
