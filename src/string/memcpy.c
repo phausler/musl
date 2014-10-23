@@ -2,6 +2,13 @@
 #include <stdint.h>
 #include <endian.h>
 
+#ifdef __arm__
+void __aeabi_memcpy(void *dest, const void *src, size_t n)
+{
+	memcpy(dest, src, n);
+}
+#endif
+
 void *memcpy(void *restrict dest, const void *restrict src, size_t n)
 {
 	unsigned char *d = dest;

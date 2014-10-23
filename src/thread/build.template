@@ -252,3 +252,5 @@ build %{build_dir}/%{__dir__}/tss_set.o : CompileC %{__path__}/tss_set.c
     cflags = $project_cflags -x c
 build %{build_dir}/%{__dir__}/vmlock.o : CompileC %{__path__}/vmlock.c
     cflags = $project_cflags -x c
+build %{build_dir}/%{__dir__}/thread.o : CompileC %{__path__}/thread.S
+    cflags = $project_cflags

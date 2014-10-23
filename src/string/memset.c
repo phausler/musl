@@ -1,6 +1,13 @@
 #include <string.h>
 #include <stdint.h>
 
+#ifdef __arm__
+void __aeabi_memset(void *dest, size_t n, int c)
+{
+	memset(dest, c, n);
+}
+#endif
+
 void *memset(void *dest, int c, size_t n)
 {
 	unsigned char *s = dest;

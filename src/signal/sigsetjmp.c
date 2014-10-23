@@ -2,6 +2,8 @@
 #include <signal.h>
 #include "libc.h"
 
+#ifndef __arm__
+
 /* !!! This function will not work unless the compiler performs
  * tail call optimization. Machine-specific asm versions should
  * be created instead even though the workaround (tail call)
@@ -15,3 +17,5 @@ int sigsetjmp(sigjmp_buf buf, int save)
 }
 
 weak_alias(sigsetjmp, __sigsetjmp);
+
+#endif

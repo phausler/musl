@@ -1,5 +1,6 @@
 #include "pthread_impl.h"
 
+#if !defined(__arm__)
 int __set_thread_area(void *p)
 {
 #ifdef SYS_set_thread_area
@@ -8,3 +9,4 @@ int __set_thread_area(void *p)
 	return -ENOSYS;
 #endif
 }
+#endif
